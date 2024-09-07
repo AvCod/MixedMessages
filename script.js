@@ -27,7 +27,7 @@ const inspirationalQuote = {
       ],
      Quotes: [
         "There is no secret ingredient. It's just you.",
-        "The past is history, the future is a mystery, but today is a gift. That’s why it’s called the present.",
+        "The past is history, the future is a mystery, but today is a gift. That's why it's called the present.",
         "One often meets his destiny on the road he takes to avoid it.",
         "To make something special, you just have to believe it's special.",
         "You are the Dragon Warrior. You have to believe it.",
