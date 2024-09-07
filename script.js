@@ -37,3 +37,31 @@ const inspirationalQuote = {
         "You should focus on the present. You should focus on the present."
       ]
 };
+
+//output holder
+const output = [];
+
+//output generator
+function charGenerator(){
+    for(const kung in inspirationalQuote){
+        let getIndex = randIndex(inspirationalQuote[kung].length);
+        switch(kung){
+            case('Avatar'):
+             output.push(`You are the mighty ${inspirationalQuote[kung][getIndex]}!`);
+             break;
+            case('Abilities'):
+             output.push(`You are equipped with the power of ${inspirationalQuote[kung][getIndex]}!`);
+             break;
+            case('Quotes'):
+             output.push(`${inspirationalQuote[kung][getIndex]}`);
+             break;
+            default:
+             output.push('You are a mid Hoo-man');
+        }   
+    }    
+}
+
+//final log to console
+charGenerator();
+console.log(output.join('\n'));
+
